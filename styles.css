@@ -1,0 +1,252 @@
+body {
+    margin:0;
+    background-color: #FAFAFA;
+}
+
+.top-container {
+    width:100%;
+    padding-top:40px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22rem;
+}
+
+.nav {
+    display: inline-block;
+    width:100%;
+}
+
+.top-container img {
+    margin:8px 200px;
+}
+
+.menu {
+    float:right;
+    margin:0 200px;
+    display:table-row;
+}
+
+.menu li {
+    display: table-cell;
+    list-style-type: none;
+    vertical-align: middle;
+    padding:10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+}
+
+.container {
+   width:60%;
+   margin:0 auto;
+   text-align:center;
+   position: relative;
+   bottom:135px;
+}
+
+
+.header {
+    position:relative;
+    border:1px solid #aca0a0;
+    border-radius:8px;
+    padding-bottom: 10px;
+    height:350px;
+    margin-bottom:40px;
+    background-color: #fff;
+    
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color:#7b7b7b;
+    line-height: 4;
+}
+
+.header img {
+    position: relative;
+    bottom:30px;
+}
+
+
+.buttons {
+    width:100%;
+
+}
+
+.buttonClass {
+    margin-right:200px;
+    font-size:15px;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration:none;
+    text-align: center;
+    display: inline-block;
+    padding:20px;
+    width:140px;
+    height:15px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(94, 181, 176, 1);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:rgba(60, 180, 171, 1);
+  }
+
+  .btnB {
+    margin-left:200px;
+    font-size:15px;
+    font-family:Arial;
+    text-decoration:none;
+    font-weight: bold;
+    background-image: url('../images/icon-bookmark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 30px 20px 75px;
+    width:140px;
+    height:15px;
+    border-width:1px;
+    color:#878787;
+    border-color:rgba(94, 181, 176, 1);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background-color:#F4F4F4;
+  }
+
+  .price-list {
+    position:relative;
+    border:1px solid #aca0a0;
+    border-radius:8px;
+    height:250px;
+    margin-bottom:50px;
+    background-color: #fff;
+    text-align: left;
+    padding:30px 60px 10px 60px;
+  }
+
+  .vr
+  {
+    border-left: 2px solid #d8d8d8;
+    height: 65px;
+    display: inline-block;
+    margin: 0px 50px;
+  }
+
+  .price-first, .price-second, .price-third {
+      display: inline-block;
+      text-align: left;
+      margin-bottom:50px;
+  }
+
+  .price-list h1 {
+    font-family: 'Cabin', cursive;
+    font-weight: bold;
+    }
+
+  .price-list h3 {
+      line-height: 0;
+  }
+
+  .progress {
+    padding: 0;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background: #e5e5e5;
+    border-radius: 10px;
+  }
+  
+  .bar {
+    position:relative;
+    float:left;
+    min-width:1%;
+    height:100%;
+    background:rgba(60, 180, 171, 1);
+    border-radius:10px;
+  }
+  
+  .percent {
+      position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    font-family:tahoma,arial,helvetica;
+    font-size:12px;
+    color:white;
+  }
+
+  .contents {
+    position:relative;
+    border:1px solid #aca0a0;
+    border-radius:8px;
+    margin-bottom:40px;
+    background-color: #fff;
+    text-align: left;
+    padding:30px 60px 10px 60px;
+  }
+  
+  p{
+    line-height:2;
+    color:#7b7b7b;
+    text-align:justify;
+  }
+  
+  .sub-contents {
+    position:relative;
+    border:1px solid #aca0a0;
+    border-radius:8px;
+    height:250px;
+    margin-bottom:40px;
+    background-color: #fff;
+    padding:10px 30px 5px 30px;
+  }
+
+  .sub-contents h1, h2 {
+      display: inline-block;
+  }
+
+  .c{
+      color:#3CB3AD;
+      display: inline-block;
+      float:right;
+  }
+
+  .sub-text {
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+  }
+
+  .buttonClassOff{
+    margin:15px 0 0 0;
+    float:right;
+    font-size:15px;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration:none;
+    text-align: center;
+    display: inline-block;
+    padding:20px;
+    width:140px;
+    height:15px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(94, 181, 176, 1);
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background:#CDCDCD;
+  }
